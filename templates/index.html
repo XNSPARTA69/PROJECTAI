@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de Prótesis</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Asistente de Prótesis con IA</h1>
+        <p>Sube una imagen para analizar el ajuste de tu prótesis o identificar anomalías.</p>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="image" class="form-label">Seleccionar imagen:</label>
+            <input type="file" name="image" id="image" accept="image/*" required>
+            <button type="submit">Procesar Imagen</button>
+        </form>
+        <div id="results" class="hidden">
+            <h2>Resultados</h2>
+            <div id="description"></div>
+            <img id="processed-image" src="" alt="Imagen procesada con detecciones y segmentación" class="hidden">
+            <a id="download-link" href="" download="processed_image.jpg" class="hidden">Descargar Imagen Procesada</a>
+            <details>
+                <summary>Datos Técnicos (Detecciones y Segmentación)</summary>
+                <pre id="raw-output"></pre>
+            </details>
+        </div>
+        <div id="status" class="status-message"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
