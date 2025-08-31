@@ -79,7 +79,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 📧 Contact
 
-For inquiries or support, please contact [XNSPARTA69](mailto:maxxpolo09@gmail.com.com).
+For inquiries or support, please contact [XNSPARTA69](mailto:maxxpolo09@gmail.com).
 
 ---
 
